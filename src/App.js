@@ -75,7 +75,7 @@ function App() {
 
   const handleClickUpdateButton = async () => {
     if (!documentId) {
-      alert('documentIdをセットしてください');
+      alert('IDをセットしてください');
       return;
     }
 
@@ -106,7 +106,7 @@ function App() {
     //   console.error("Error removing document: ", error);
     // });
     if (!documentId) {
-      alert('documentIdをセットしてください');
+      alert('IDをセットしてください');
       return;
     }
 
